@@ -1,1 +1,70 @@
-hellow world
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>for laszlo</title>
+    <link rel="preload" type="text/css" href="//undertalefonts.duodecima.technology/webfonts/stylesheet.css">
+    <style> 
+      body {  
+        background-color: #FFF4E9; 
+        color: 453750;
+        font-family: "Undertale Sans";
+        font-size: 32px;
+      }
+
+      .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .countdown {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .numbers {
+        background-color: #FF87AB;
+        padding: 2px 50px;
+        border-radius: 25%;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="countdown.js"></script>
+    <div>
+      <h1 class="heading">time left until gift unlocks :3c</h1>
+      <div class="countdown">
+        <div class="block">
+          <div class="numbers">
+            <h4 class="days"></h4>
+          </div>
+          <p>days</p>
+        </div>
+        <div class="block">
+          <div class="numbers">
+            <h4 class="hours"></h4>
+          </div>
+          <p>hours</p>
+        </div>
+        <div class="block">
+          <div class="numbers">
+            <h4 class="minutes"></h4>
+          </div>
+          <p>minutes</p>
+        </div>
+        <div class="block">
+          <div class="numbers">
+            <h4 class="seconds"></h4>
+          </div>
+          <p>seconds</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
